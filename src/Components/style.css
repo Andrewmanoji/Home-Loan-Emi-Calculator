@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Poppins:ital,wght@0,300;0,500;1,500&display=swap");
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-image: url(./homelone.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(220, 237, 243, 0.788);
+  width: 450px;
+  height: 550px;
+  margin-left: 130px;
+  margin-top: 40px;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.822);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  backdrop-filter: blur(255px);
+}
+
+input {
+  display: flex;
+  width: 290px;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 40px;
+  color: #626262;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid rgb(230, 223, 223);
+  margin-top: 6px;
+  margin-bottom: 10px;
+  background: transparent;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  color: rgb(234, 234, 241);
+  background-color: rgb(9, 160, 171);
+  border: 1px solid rgb(176, 176, 181);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+button:hover {
+  color: rgb(241, 241, 247);
+  background-color: rgb(203, 125, 8);
+  border: 1px solid rgb(176, 176, 181);
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.output {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+label {
+  color: rgb(19, 1, 19);
+  font-weight: 500;
+}
+.reset {
+  color: rgb(252, 252, 252);
+  background-color: rgb(9, 160, 171);
+  border: 1px solid rgb(176, 176, 181);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.reset:hover {
+  color: rgb(239, 239, 246);
+  background-color: rgb(203, 125, 8);
+  border: 1px solid rgb(176, 176, 181);
+}
+
+span {
+  background-color: rgb(207, 138, 8);
+  border-radius: 3px;
+  color: rgb(189, 245, 196);
+  font-size: 30px;
+}
+.ci {
+  height: 6px;
+  background-color: rgb(7, 141, 162);
+  border-radius: 3px;
+  color: rgb(247, 242, 242);
+  font-size: 30px;
+}
